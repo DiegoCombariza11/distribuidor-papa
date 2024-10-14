@@ -13,7 +13,9 @@ export default function Component() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log('Formulario enviado:', formData);
-    // Aquí puedes agregar la lógica para enviar el formulario
+    
+    //mentira, no los vamos a contactar nunca jasjajs
+
     alert('Gracias por contactarnos. Te responderemos pronto.');
     setFormData({ name: '', email: '', message: '' });
   };
