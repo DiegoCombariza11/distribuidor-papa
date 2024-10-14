@@ -28,10 +28,10 @@ export default function Component() {
               <img src="/placeholder.svg?height=40&width=120" alt="Logo" className="h-10" />
             </div>
             <div className="hidden md:flex space-x-4">
-              <a href="#" className="text-white hover:text-yellow-200">Inicio</a>
-              <a href="#" className="text-white hover:text-yellow-200">Productos</a>
-              <a href="#" className="text-white hover:text-yellow-200">Blog</a>
-              <a href="#" className="text-white hover:text-yellow-200">Contacto</a>
+              <a href="#start" className="text-white hover:text-yellow-200">Inicio</a>
+              <a href="#main" className="text-white hover:text-yellow-200">Productos</a>
+              <a href="#blog" className="text-white hover:text-yellow-200">Blog</a>
+              <a href="#contacto" className="text-white hover:text-yellow-200">Contacto</a>
             </div>
             <div className="md:hidden">
               <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -42,16 +42,16 @@ export default function Component() {
         </nav>
         {mobileMenuOpen && (
           <div className="md:hidden">
-            <a href="#" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Inicio</a>
-            <a href="#" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Productos</a>
-            <a href="#" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Blog</a>
-            <a href="#" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Contacto</a>
+            <a href="#start" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Inicio</a>
+            <a href="#main" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Productos</a>
+            <a href="#blog" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Blog</a>
+            <a href="#contacto" className="block py-2 px-4 text-sm hover:bg-yellow-400 text-white">Contacto</a>
           </div>
         )}
       </header>
 
       {/* Hero Section con CTA */}
-      <section className="bg-yellow-100 py-20">
+      <section id="start" className="bg-yellow-100 py-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-2 text-yellow-800">Distribuidora de Papa Premium</h1>
           <p className="text-xl mb-8 text-yellow-700">La mejor calidad para tu negocio</p>
@@ -62,7 +62,7 @@ export default function Component() {
       </section>
 
       {/* Contenido Principal */}
-      <section className="py-12">
+      <section id="main" className="py-12">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestros Productos</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -92,7 +92,7 @@ export default function Component() {
       </section>
 
       {/* Blog */}
-      <section className="bg-gray-100 py-12">
+      <section id="blog" className="bg-gray-100 py-12">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestro Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
