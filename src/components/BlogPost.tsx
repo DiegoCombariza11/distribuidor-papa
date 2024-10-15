@@ -17,7 +17,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ title, content, image }) => {
       </header>
       <main className="container mx-auto px-6 py-8">
         <article className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <img src={image} alt={title} className="w-full h-64 object-cover" />
+          <img src={image} alt={title} className="w-full h-64 object-contain" />
           <div className="p-6">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">{title}</h1>
             <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: content }}></div>
