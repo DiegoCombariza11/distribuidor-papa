@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import logo from '../images/logoClean.png';
+import pastusa from '../images/pastusa.jpg';
+import criolla from '../images/criolla.jpg';
+import tocarrena from '../images/tocarreña.jpg';
 
 export default function Component() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -70,23 +73,23 @@ export default function Component() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestros Productos</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Papa Blanca" className="w-full h-48 object-cover" />
+              <img src={pastusa} alt="Papa Blanca" className="w-full h-48 object-cover" />
               <div className="p-4">
-                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Blanca</h3>
+                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Pastusa</h3>
                 <p className="text-gray-600">Perfecta para freír y hornear</p>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Papa Amarilla" className="w-full h-48 object-cover" />
+              <img src={criolla} alt="Papa Amarilla" className="w-full h-48 object-cover" />
               <div className="p-4">
-                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Amarilla</h3>
+                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Criolla</h3>
                 <p className="text-gray-600">Ideal para purés y guisos</p>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Papa Roja" className="w-full h-48 object-cover" />
+              <img src={tocarrena} alt="Papa Roja" className="w-full h-48 object-cover" />
               <div className="p-4">
-                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Roja</h3>
+                <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Tocarreña</h3>
                 <p className="text-gray-600">Excelente para ensaladas</p>
               </div>
             </div>
