@@ -4,6 +4,9 @@ import logo from '../images/logoClean.png';
 import pastusa from '../images/pastusa.jpg';
 import criolla from '../images/criolla.jpg';
 import tocarrena from '../images/tocarreña.jpg';
+import beneficios from '../images/blog/beneficios.png';
+import recetas from '../images/blog/recetas.png';
+import sostenible from '../images/blog/sostenible.png';
 
 export default function Component() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -103,7 +106,7 @@ export default function Component() {
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestro Blog</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Blog 1" className="w-full h-48 object-cover" />
+              <img src={recetas} alt="Blog 1" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2 text-gray-800">10 Recetas con Papa</h3>
                 <p className="text-gray-600">Descubre deliciosas formas de preparar papa...</p>
@@ -111,7 +114,7 @@ export default function Component() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Blog 2" className="w-full h-48 object-cover" />
+              <img src={beneficios} alt="Blog 2" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2 text-gray-800">Beneficios de la Papa</h3>
                 <p className="text-gray-600">Conoce por qué la papa es un alimento esencial...</p>
@@ -119,7 +122,7 @@ export default function Component() {
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
-              <img src="/placeholder.svg?height=200&width=300" alt="Blog 3" className="w-full h-48 object-cover" />
+              <img src={sostenible} alt="Blog 3" className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2 text-gray-800">Cultivo Sostenible</h3>
                 <p className="text-gray-600">Aprende sobre nuestras prácticas de cultivo...</p>
