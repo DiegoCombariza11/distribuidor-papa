@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import pastusaI from '../images/pastusa.jpg';
+import criollaI from '../images/criolla.jpg';
+import tocarrenaI from '../images/tocarreña.jpg';
 
 interface Product {
   name: string;
@@ -17,28 +20,24 @@ interface ProductDetailProps {
   nutritionalInfo: string;
 }
 
-const pastusa = 'path/to/pastusa';
-const criolla = 'path/to/criolla';
-const tocarrena = 'path/to/tocarrena';
-
 const products: Record<string, Product> = {
   pastusa: {
     name: 'Papa Pastusa',
-    image: pastusa,
+    image: pastusaI,
     description: 'La papa pastusa es una variedad versátil, perfecta para freír y hornear. Su textura harinosa la hace ideal para purés y sopas.',
     uses: ['Freír', 'Hornear', 'Puré', 'Sopas'],
     nutritionalInfo: 'Rica en carbohidratos, vitamina C y potasio.'
   },
   criolla: {
     name: 'Papa  Criolla',
-    image: criolla,
+    image: criollaI,
     description: 'La papa criolla es pequeña y de color amarillo intenso. Su sabor es suave y mantecoso, ideal para guisos y como acompañamiento.',
     uses: ['Guisos', 'Acompañamiento', 'Ensaladas'],
     nutritionalInfo: 'Alta en antioxidantes y vitamina C.'
   },
   tocarrena: {
     name: 'Papa Tocarreña',
-    image: tocarrena,
+    image: tocarrenaI,
     description: 'La papa tocarreña tiene una piel rojiza y carne blanca. Es excelente para ensaladas y cocción al vapor.',
     uses: ['Ensaladas', 'Cocción al vapor', 'Asada'],
     nutritionalInfo: 'Buena fuente de fibra y vitaminas del complejo B.'
