@@ -70,32 +70,32 @@ export default function Component() {
         </div>
       </section>
 
-      {/* Contenido Principal */}
+  {/* Contenido Principal */}
 <section id="main" className="py-12">
   <div className="container mx-auto px-6">
     <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestros Productos</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={pastusa} alt="Papa Blanca" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      <a href="/papa-pastusa" target="_blank" className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={pastusa} alt="Papa Blanca" className="w-full h-48 object-cover" />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Pastusa</h3>
           <p className="text-gray-600">Perfecta para freír y hornear</p>
         </div>
-      </div>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={criolla} alt="Papa Amarilla" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      </a>
+      <a href="/papa-criolla" target="_blank" className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={criolla} alt="Papa Amarilla" className="w-full h-48 object-cover " />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Criolla</h3>
           <p className="text-gray-600">Ideal para purés y guisos</p>
         </div>
-      </div>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={tocarrena} alt="Papa Roja" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      </a>
+      <a href="/papa-tocarrena" target="_blank" className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={tocarrena} alt="Papa Roja" className="w-full h-48 object-cover " />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">Papa Tocarreña</h3>
           <p className="text-gray-600">Excelente para ensaladas</p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
@@ -105,24 +105,24 @@ export default function Component() {
   <div className="container mx-auto px-6">
     <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">Nuestro Blog</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={recetas} alt="Blog 1" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      <div className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={recetas} alt="Blog 1" className="w-full h-48 object-cover " />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">10 Recetas con Papa</h3>
           <p className="text-gray-600">Descubre deliciosas formas de preparar papa...</p>
           <a href="#" className="text-yellow-500 hover:text-yellow-600 mt-2 inline-block">Leer más</a>
         </div>
       </div>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={beneficios} alt="Blog 2" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      <div className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={beneficios} alt="Blog 2" className="w-full h-48 object-cover" />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">Beneficios de la Papa</h3>
           <p className="text-gray-600">Conoce por qué la papa es un alimento esencial...</p>
           <a href="#" className="text-yellow-500 hover:text-yellow-600 mt-2 inline-block">Leer más</a>
         </div>
       </div>
-      <div className="bg-white rounded-lg shadow-md overflow-hidden group">
-        <img src={sostenible} alt="Blog 3" className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" />
+      <div className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-200 ease-in-out">
+        <img src={sostenible} alt="Blog 3" className="w-full h-48 object-cover " />
         <div className="p-4">
           <h3 className="font-bold text-xl mb-2 text-gray-800">Cultivo Sostenible</h3>
           <p className="text-gray-600">Aprende sobre nuestras prácticas de cultivo...</p>
