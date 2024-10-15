@@ -5,8 +5,8 @@ import pastusa from '../images/pastusa.jpg';
 import criolla from '../images/criolla.jpg';
 import tocarrena from '../images/tocarreña.jpg';
 import beneficios from '../images/blog/beneficios.png';
-import recetas from '../images/blog/recetas.png';
-import sostenible from '../images/blog/sostenible.png';
+import recetas from '../images/blog/recetas.jpg';
+import sostenible from '../images/blog/sostenible.jpg';
 
 export default function Component() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
