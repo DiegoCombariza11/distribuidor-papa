@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X, ChevronDown } from 'lucide-react'
+import logo from '../images/logoClean.svg';
 
 export default function Component() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ export default function Component() {
         <nav className="container mx-auto px-6 py-3">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold text-white">
-              <img src="/placeholder.svg?height=40&width=120" alt="Logo" className="h-10" />
+              <img src={logo} alt="Logo" className="h-10" />
             </div>
             <div className="hidden md:flex space-x-4">
               <a href="#start" className="text-white hover:text-yellow-200">Inicio</a>
@@ -183,7 +184,7 @@ export default function Component() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <img src="/placeholder.svg?height=40&width=120" alt="Logo" className="h-10" />
+              <img src={logo} alt="Logo" className="h-10" />
             </div>
             <div className="flex flex-wrap justify-center md:justify-end gap-4">
               <a href="#" className="hover:text-yellow-200">Términos y Condiciones</a>
