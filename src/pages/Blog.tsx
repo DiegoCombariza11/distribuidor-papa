@@ -10,99 +10,97 @@ const blogPosts = {
     title: '10 Recetas con Papa',
     image: recetas,
     content: `
-      <p>Las papas son un ingrediente versátil que se puede usar en una variedad de platos deliciosos. Aquí te presentamos 10 recetas increíbles con papa, con explicaciones para que puedas experimentar con nuevos sabores y técnicas de cocina.</p>
-      <ol>
-        <li>
-          <p><strong>Papas gratinadas con queso y crema:</strong> Este clásico plato de papas gratinadas combina capas de papas finamente cortadas, con una mezcla rica de crema, queso y especias. Se hornea hasta obtener una textura cremosa en el centro y un dorado crujiente en la parte superior. Ideal como acompañamiento o plato principal.</p>
-        </li>
-        <li>
-          <p><strong>Ensalada de papa con mayonesa y hierbas frescas:</strong> La ensalada de papa es una receta fresca y deliciosa, perfecta para días cálidos. Las papas cocidas se combinan con una cremosa mayonesa, mostaza, cebolla picada y una mezcla de hierbas frescas como el perejil y el eneldo. Se sirve fría, y es ideal para acompañar carnes a la parrilla o sandwiches.</p>
-        </li>
-        <li>
-          <p><strong>Puré de papa con ajo asado:</strong> Para darle un toque gourmet a tu puré de papa tradicional, agrega ajo asado. El ajo asado se vuelve suave y dulce, y cuando se mezcla con el puré de papa, aporta un sabor profundo y delicioso. Este puré es perfecto para acompañar carnes, especialmente pollo o cerdo.</p>
-        </li>
-        <li>
-          <p><strong>Papas rellenas de carne y vegetales:</strong> Las papas rellenas son una opción versátil y completa. Las papas se hornean, se les extrae la pulpa y luego se rellenan con una mezcla de carne picada, verduras salteadas y queso. Una vez rellenas, se gratinan en el horno para un resultado crujiente por fuera y cremoso por dentro.</p>
-        </li>
-        <li>
-          <p><strong>Sopa de papa y puerro:</strong> Esta sopa cremosa es un verdadero placer en días fríos. El puerro le aporta un sabor suave y ligeramente dulce que combina perfectamente con la papa. Es una sopa reconfortante que se puede servir con un poco de crema agria y crutones crujientes.</p>
-        </li>
-        <li>
-          <p><strong>Tortilla española de papa:</strong> Un clásico de la cocina española. La tortilla de papas se prepara con papas fritas lentamente en aceite de oliva, junto con cebolla y huevos batidos. El resultado es una tortilla jugosa y suave por dentro, perfecta para servir tanto caliente como fría, y que puede acompañarse con pan o una ensalada.</p>
-        </li>
-        <li>
-          <p><strong>Papas fritas caseras con especias:</strong> Las papas fritas no necesitan mucha presentación, pero puedes elevarlas a otro nivel añadiendo tus especias favoritas. Prueba con una mezcla de pimentón, ajo en polvo y orégano para darle un toque especial. Sirve con tus salsas favoritas.</p>
-        </li>
-        <li>
-          <p><strong>Gnocchi de papa con salsa de tomate:</strong> El gnocchi es una pasta suave hecha con puré de papa. Se cocina rápidamente y combina perfectamente con salsas simples como una de tomate fresco y albahaca, o una salsa de mantequilla y salvia. Es una receta fácil y deliciosa que puedes hacer desde cero.</p>
-        </li>
-        <li>
-          <p><strong>Croquetas de papa y queso:</strong> Estas croquetas son crujientes por fuera y suaves por dentro. Se hacen con puré de papa mezclado con queso rallado, se forman pequeñas bolitas que se empanizan y se fríen. Son ideales como aperitivo o guarnición.</p>
-        </li>
-        <li>
-          <p><strong>Papas asadas con romero y ajo:</strong> Las papas asadas con romero y ajo son un acompañamiento sencillo pero lleno de sabor. Las papas se cortan en trozos grandes, se mezclan con aceite de oliva, ajo picado y romero fresco, y se asan hasta que estén doradas y crujientes.</p>
-        </li>
-      </ol>
-      <p>Cada una de estas recetas destaca el sabor único y la textura de nuestras papas de alta calidad. ¡Experimenta con estas ideas y descubre tu favorita!</p>
+      <h2>Descubre nuevas formas de disfrutar la papa</h2>
+      <p>Las papas son uno de los ingredientes más versátiles que podemos encontrar en la cocina. Su textura, sabor y capacidad de adaptarse a diferentes tipos de cocción las hacen ideales para una infinidad de recetas. A continuación, te presentamos diez recetas con papa que te harán disfrutar de este increíble tubérculo en formas que tal vez no habías considerado.</p>
+
+      <h3>1. Papas gratinadas con queso y crema</h3>
+      <p>Este plato clásico combina capas de papas finamente cortadas, crema y queso fundido, logrando una textura suave por dentro y crujiente por fuera. Es el acompañamiento perfecto para carnes o como plato principal en cualquier ocasión especial.</p>
+
+      <h3>2. Ensalada de papa con mayonesa y hierbas frescas</h3>
+      <p>Una opción refrescante, ideal para acompañar asados o platos a la parrilla. La combinación de mayonesa con hierbas frescas como el perejil y el eneldo crea un equilibrio perfecto de cremosidad y frescura.</p>
+
+      <h3>3. Puré de papa con ajo asado</h3>
+      <p>Para los amantes de los sabores más intensos, el puré de papa con ajo asado es una excelente opción. El ajo asado aporta un toque especial al puré tradicional, haciéndolo más sabroso y aromático.</p>
+
+      <h3>4. Papas rellenas de carne y vegetales</h3>
+      <p>Una receta más elaborada que te sorprenderá. Las papas se vacían y se rellenan con una mezcla de carne picada, vegetales y especias, para luego hornearlas hasta que estén doradas por fuera y jugosas por dentro.</p>
+
+      <h3>5. Sopa de papa y puerro</h3>
+      <p>Nada mejor que una sopa reconfortante en los días fríos. La combinación del puerro con las papas crea una textura suave y un sabor delicado que encantará a toda la familia.</p>
+
+      <h3>6. Tortilla española de papa</h3>
+      <p>Este plato icónico de la gastronomía española es una opción simple pero deliciosa. La combinación de papas y huevo, cocinada lentamente, crea una textura suave y jugosa en su interior.</p>
+
+      <h3>7. Papas fritas caseras con especias</h3>
+      <p>Una opción sencilla pero siempre apetecible. Al prepararlas en casa, puedes experimentar con diferentes especias como pimentón, ajo en polvo o romero para darle un toque único.</p>
+
+      <h3>8. Gnocchi de papa con salsa de tomate</h3>
+      <p>Este plato más refinado es ideal para los amantes de la pasta. Los gnocchi suaves y esponjosos combinan perfectamente con una salsa de tomate fresca y aromática.</p>
+
+      <h3>9. Croquetas de papa y queso</h3>
+      <p>Crujientes por fuera y suaves por dentro, estas croquetas son perfectas como aperitivo o acompañamiento. El queso fundido en su interior es irresistible.</p>
+
+      <h3>10. Papas asadas con romero y ajo</h3>
+      <p>El acompañamiento perfecto para carnes o pescados. El romero y el ajo aportan un sabor delicioso, mientras que las papas se cocinan hasta obtener una textura crujiente por fuera y suave por dentro.</p>
+
+      <p><strong>¡Experimenta con estas ideas y descubre tu favorita!</strong> Cada una de estas recetas resalta el sabor único y la textura de nuestras papas de alta calidad.</p>
     `
   },
   beneficios: {
     title: 'Beneficios de la Papa',
     image: beneficios,
     content: `
-      <p>La papa no solo es deliciosa, sino que también ofrece una serie de beneficios nutricionales que la convierten en un alimento esencial en cualquier dieta equilibrada. A continuación, te explicamos algunos de sus principales beneficios:</p>
-      <ul>
-        <li>
-          <p><strong>Rica en nutrientes:</strong> Las papas son una excelente fuente de vitaminas y minerales esenciales, como la vitamina C, el potasio y la vitamina B6. Estos nutrientes son importantes para mantener el sistema inmunológico fuerte, regular la presión arterial y promover el metabolismo energético.</p>
-        </li>
-        <li>
-          <p><strong>Bajo en calorías:</strong> Contrario a la creencia popular, las papas son relativamente bajas en calorías, siempre que se preparen de manera saludable, como al horno o hervidas. Esto las convierte en una excelente opción para quienes buscan controlar su peso sin renunciar a comidas sabrosas.</p>
-        </li>
-        <li>
-          <p><strong>Alta en fibra:</strong> La papa, especialmente si se consume con la piel, es una buena fuente de fibra dietética. La fibra ayuda a mantener la salud digestiva, previniendo el estreñimiento, y también contribuye a una mayor sensación de saciedad, lo que puede ser útil para el control del apetito.</p>
-        </li>
-        <li>
-          <p><strong>Antioxidantes:</strong> Las papas contienen antioxidantes, como los flavonoides y carotenoides, que pueden ayudar a reducir el riesgo de desarrollar enfermedades crónicas al neutralizar los radicales libres en el cuerpo.</p>
-        </li>
-        <li>
-          <p><strong>Libre de gluten:</strong> Las papas son naturalmente libres de gluten, lo que las convierte en una opción segura y nutritiva para personas con enfermedad celíaca o sensibilidad al gluten.</p>
-        </li>
-        <li>
-          <p><strong>Versatilidad culinaria:</strong> Las papas pueden ser cocinadas de muchas maneras diferentes, desde asadas, fritas, en puré, hasta en sopas. Esta versatilidad las hace ideales para adaptarse a cualquier tipo de dieta o preferencia alimentaria.</p>
-        </li>
-      </ul>
-      <p>Incorporar papas en tu dieta de manera equilibrada puede contribuir a una alimentación saludable y nutritiva. ¡Añade papas a tus platos diarios y disfruta de sus beneficios!</p>
+      <h2>¿Por qué deberías incluir más papas en tu dieta?</h2>
+      <p>La papa es mucho más que un simple acompañamiento. Este tubérculo ha sido un pilar en la alimentación de muchas culturas alrededor del mundo, y no es de sorprender que sea tan popular, considerando todos los beneficios que ofrece.</p>
+
+      <h3>Rica en nutrientes</h3>
+      <p>Las papas son una excelente fuente de <strong>vitamina C</strong>, <strong>potasio</strong> y <strong>vitamina B6</strong>, esenciales para el buen funcionamiento del organismo. Además, son una buena fuente de carbohidratos complejos, que proporcionan energía duradera.</p>
+
+      <h3>Bajo en calorías</h3>
+      <p>Contrario a lo que muchos piensan, las papas son un alimento <strong>bajo en calorías</strong> si se preparan de manera saludable. Hornearlas o cocerlas al vapor ayuda a conservar sus nutrientes sin agregar grasas innecesarias.</p>
+
+      <h3>Alta en fibra</h3>
+      <p>El contenido de <strong>fibra</strong> de las papas, especialmente cuando se consumen con piel, es ideal para mantener un sistema digestivo saludable y proporcionar una sensación de saciedad prolongada.</p>
+
+      <h3>Antioxidantes</h3>
+      <p>Las papas contienen antioxidantes que ayudan a combatir los radicales libres, lo que puede reducir el riesgo de enfermedades crónicas. Son un complemento excelente para una dieta balanceada.</p>
+
+      <h3>Libre de gluten</h3>
+      <p>Las papas son <strong>naturalmente libres de gluten</strong>, lo que las convierte en una opción segura para personas con intolerancia al gluten o enfermedad celíaca. Además, su versatilidad las hace ideales para incluirlas en cualquier tipo de dieta.</p>
+
+      <p>Incorporar papas en tu dieta de manera equilibrada puede contribuir significativamente a una alimentación saludable, variada y rica en nutrientes.</p>
     `
   },
   sostenible: {
     title: 'Cultivo Sostenible',
     image: sostenible,
     content: `
-      <p>En nuestra distribuidora, nos comprometemos no solo a ofrecer productos de calidad, sino también a cuidar el medio ambiente mediante prácticas de cultivo sostenible. A continuación, explicamos algunos de los métodos que utilizamos para garantizar que nuestras papas sean tanto nutritivas como respetuosas con el entorno:</p>
-      <ul>
-        <li>
-          <p><strong>Rotación de cultivos:</strong> Implementamos la rotación de cultivos para preservar la salud del suelo, lo que permite evitar el agotamiento de nutrientes y reducir la necesidad de pesticidas químicos. Esta técnica también mejora la biodiversidad del terreno.</p>
-        </li>
-        <li>
-          <p><strong>Conservación del agua:</strong> Utilizamos sistemas de riego por goteo que permiten reducir el desperdicio de agua al dirigir el recurso exactamente donde se necesita. Este método es eficiente y sostenible, especialmente en regiones donde el agua es escasa.</p>
-        </li>
-        <li>
-          <p><strong>Control biológico de plagas:</strong> Para evitar el uso excesivo de pesticidas, favorecemos el control biológico utilizando depredadores naturales de las plagas. Esto no solo protege la salud de nuestras papas, sino también del ecosistema circundante.</p>
-        </li>
-        <li>
-          <p><strong>Compostaje:</strong> Los residuos orgánicos de nuestras operaciones se reciclan para crear compost natural, que luego es utilizado para enriquecer el suelo. De esta manera, reducimos el uso de fertilizantes sintéticos.</p>
-        </li>
-        <li>
-          <p><strong>Energía renovable:</strong> Nuestras instalaciones cuentan con paneles solares, lo que nos permite reducir significativamente nuestra huella de carbono. Esta energía limpia alimenta nuestros sistemas de almacenamiento y procesamiento de papas.</p>
-        </li>
-        <li>
-          <p><strong>Reducir el desperdicio de alimentos:</strong> Trabajamos en conjunto con bancos de alimentos y organizaciones locales para donar papas y otros productos que no cumplen con los estándares estéticos pero que siguen siendo perfectamente comestibles.</p>
-        </li>
-      </ul>
-      <p>Creemos firmemente en un futuro sostenible, y cada pequeño paso cuenta para proteger nuestro planeta. Al elegir nuestros productos, también estás apoyando un enfoque responsable hacia el cultivo de alimentos.</p>
+      <h2>Nuestro compromiso con el medio ambiente</h2>
+      <p>En nuestra distribuidora, nos enorgullece ofrecer productos de alta calidad de una manera que respete el medio ambiente. El cultivo sostenible es una parte integral de nuestra filosofía de trabajo, y cada paso que damos en el proceso de producción está enfocado en minimizar el impacto ambiental.</p>
+
+      <h3>Rotación de cultivos</h3>
+      <p>La <strong>rotación de cultivos</strong> es fundamental para mantener la salud del suelo. Al alternar los tipos de plantas que cultivamos, logramos mejorar la calidad de nuestras papas y reducir la necesidad de pesticidas.</p>
+
+      <h3>Conservación del agua</h3>
+      <p>Nos enfocamos en la <strong>conservación del agua</strong> utilizando sistemas de riego eficientes que minimizan el uso de este recurso vital, garantizando que el agua no se desperdicie.</p>
+
+      <h3>Control biológico de plagas</h3>
+      <p>Favorecemos el uso de <strong>métodos biológicos</strong> para el control de plagas. Esto reduce el uso de químicos dañinos y permite que nuestras papas crezcan en un entorno más natural y saludable.</p>
+
+      <h3>Compostaje</h3>
+      <p>El <strong>compostaje</strong> es otra práctica que implementamos para enriquecer el suelo de manera natural. Reciclamos los residuos orgánicos para mejorar la fertilidad del suelo y reducir el desperdicio.</p>
+
+      <h3>Energía renovable</h3>
+      <p>Estamos comprometidos con el uso de <strong>energía renovable</strong>. En nuestras instalaciones, utilizamos energía solar para reducir nuestra huella de carbono y promover un futuro más sostenible.</p>
+
+      <h3>Apoyo a la comunidad local</h3>
+      <p>Trabajamos de cerca con agricultores locales, fomentando <strong>prácticas sostenibles</strong> y apoyando el desarrollo económico de la región. Creemos que nuestro éxito está ligado al bienestar de las comunidades que nos rodean.</p>
+
+      <p><strong>Nuestro compromiso con el cultivo sostenible</strong> no solo beneficia al medio ambiente, sino que también se refleja en la calidad de las papas que ofrecemos. Queremos brindarte productos deliciosos y responsables con el planeta.</p>
     `
   }
 };
+
 
 
 interface BlogPostProps {

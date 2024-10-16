@@ -71,7 +71,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name, description, image,
       </main>
       <footer className="bg-yellow-500 text-white mt-8">
         <div className="container mx-auto px-6 py-4 text-center">
-          <p>&copy; 2024 Distribuidora de Papa. Todos los derechos reservados.</p>
+          <p>&copy; 2024 Distribuidora de Papa. Todos los derechos reservados Diego Combariza Samuel Rocha.</p>
         </div>
       </footer>
     </div>

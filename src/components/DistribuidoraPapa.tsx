@@ -194,7 +194,7 @@ export default function DistribuidoraPapa() {
               </div>
             </div>
             <div className="mt-4 text-center">
-              <p>&copy; 2024 Distribuidora de Papa. Todos los derechos reservados.</p>
+              <p>&copy; 2024 Distribuidora de Papa. Todos los derechos reservados Diego Combariza Samuel Rocha.</p>
             </div>
           </div>
         </footer>
