@@ -54,7 +54,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ name, description, image,
       </header>
       <main className="container mx-auto px-6 py-8">
         <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-          <img src={image} alt={name} className="w-full h-64 object-cover" />
+          <img src={image} alt={name} className="w-full h-64 object-contain" />
           <div className="p-6">
             <h1 className="text-3xl font-bold text-gray-800 mb-4">{name}</h1>
             <p className="text-gray-600 mb-4">{description}</p>
